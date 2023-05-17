@@ -1,0 +1,92 @@
+.todo-container {
+ 
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  opacity: 0.85;
+  color: white;
+  margin: 5em auto;
+  width: 70vw;
+  border-radius: 10px;
+  padding: 15px;
+}
+.header {
+  text-align: center;
+  font-size: 2em;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.input-container {
+  /* background-color: black; */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      rgb(0, 9, 212, 25501),
+      rgb(54, 35, 106),
+      rgb(40, 40, 83)
+    )
+    1;
+  opacity: 0.8;
+
+}
+
+.input {
+  width: 80%;
+  margin-top: 1rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1em;
+  color: black;
+  border: 1px;
+  border-radius: 1em;
+  text-align: center;
+  outline: none;
+}
+.list-Task {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  /* background-color: rgb(14, 14, 14); */
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  border-image: linear-gradient(
+      to right,
+      rgb(0, 9, 212, 25501),
+      rgb(54, 35, 106),
+      rgb(40, 40, 83)
+    )
+    1;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.delete-icon {
+  float: right;
+  margin-top: 10px;
+}
+
+.checkbox {
+  margin-top: 10px;
+  font-size: medium;
+}
